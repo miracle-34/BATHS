@@ -30,9 +30,13 @@ public class Ships {
         return battleSkill;
     }
     
-    public void commission(){
-    }
     
+    
+    public void commission(){
+        ShipState = ACTIVE;
+    }
+    //Should the ship’s status or cost be updated dynamically when these methods are called?
+
     public void deCommission(){
     }
     
